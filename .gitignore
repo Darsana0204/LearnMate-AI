@@ -1,0 +1,6 @@
+venv/
+*.pyc
+.vscode/
+nltk_data/
+.DS_Store
+Thumbs.db
