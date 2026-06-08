@@ -23,3 +23,15 @@ for word in words:
 
 print("\n=FILTERED WORDS=")
 print(filtered_words)
+
+word_freq= {}
+for word in filtered_words:
+
+    word= word.lower()
+    if word not in word_freq:
+        word_freq[word] = 1
+    else:
+        word_freq[word] += 1
+
+print("\n=WORD FREQUENCY=")
+print(word_freq)
